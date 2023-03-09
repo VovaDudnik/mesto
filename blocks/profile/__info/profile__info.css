@@ -1,0 +1,11 @@
+.profile__info {
+  margin: 22px auto 25px 30px;
+}
+
+@media (max-width: 787px) {
+  .profile__info {
+    display: flex;
+    flex-direction: column;
+    margin: 22px auto 36px;
+  }
+}
