@@ -7,7 +7,7 @@
 @font-face {
   font-family: 'Inter';
   font-weight: 500;
-  src: url(./Inter-Medium.ttf) format('ttf');
+  src: url(./Inter-Medium.woff2) format('woff2');
 }
 
 @font-face {

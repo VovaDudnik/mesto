@@ -8,3 +8,13 @@
   top: -40px;
   left: 440px;
 }
+
+@media (max-width: 787px) {
+  .popup__close {
+    background-image: url(../../../images/Close\ IconM.svg);
+    width: 20px;
+    height: 20px;
+    top: -32px;
+    left: 261px;
+  }
+}

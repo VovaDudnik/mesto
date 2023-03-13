@@ -1,5 +1,5 @@
 .profile__discription {
-  width: 336px;
+  max-width: 336px;
   height: 18px;
   font-family: 'Inter';
   font-style: normal;
@@ -16,7 +16,7 @@
 
 @media (max-width: 787px) {
   .profile__discription {
-    font-weight: 400;
+    max-width: 282px;
     font-size: 14px;
     line-height: 17px;
     text-align: center;

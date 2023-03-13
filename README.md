@@ -15,4 +15,4 @@
 Исправить все замечания полученные после ревью с целью получить зачет по ПР4
 
 ## GitHub Pages
-https://vovadudnik.github.io/russian-travel/
+https://vovadudnik.github.io/mesto/
