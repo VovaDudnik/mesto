@@ -12,3 +12,10 @@
   line-height: 17px;
   color: #000000;
 }
+
+@media (max-width: 787px) {
+  .popup__text {
+    width: 238px;
+
+  }
+}
