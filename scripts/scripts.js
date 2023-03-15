@@ -4,12 +4,11 @@ const popupContainerElement = document.querySelector(".popup__container");
 const popupCloseButtonElement = popupContainerElement.querySelector(".popup__close"); /*Закрыть*/
 const popupContentElement = document.querySelector(".popup__content");
 const popupSaveElement = popupContentElement.querySelector(".popup__save");   /*Сохранить*/
-
 const profileName = document.querySelector(".profile__name");
 const profileDiscription = document.querySelector(".profile__discription");
-
 const editName = document.querySelector('#name');
 const editDiscription = document.querySelector('#discription');
+const saveForm = document.querySelector(".popup__container");
 
 /*Кнопка-Открыть-закрыть*/
 const openPopup = function () {
@@ -32,11 +31,4 @@ const saveContent = function (event) {
   closePopup();
 
 }
-popupSaveElement.addEventListener("click", saveContent);
-
-console.log(profileEditeButtonElement);
-console.log(popupElement);
-console.log(popupContainerElement);
-console.log(popupCloseButtonElement);
-console.log(popupContentElement);
-console.log(popupSaveElement);
+saveForm.addEventListener("submit", saveContent);

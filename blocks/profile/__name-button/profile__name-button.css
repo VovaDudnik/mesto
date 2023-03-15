@@ -5,6 +5,6 @@
 }
 @media (max-width: 787px) {
   .profile__name-button {
-    margin: 0 auto 14px;
+    margin: 0 auto 12px 25px;
 }
 }
