@@ -1,7 +1,6 @@
 const profileEditeButtonElement = document.querySelector(".profile__edit-button"); /*Кнопка редактирвоания*/
 const popupElement = document.querySelector(".popup");                                 /*Попап*/
-const popupContainerElement = document.querySelector(".popup__container");
-const popupCloseButtonElement = popupContainerElement.querySelector(".popup__close"); /*Закрыть*/
+const popupCloseButtonElement = document.querySelector(".popup__close"); /*Закрыть*/
 const popupContentElement = document.querySelector(".popup__content");
 const popupSaveElement = popupContentElement.querySelector(".popup__save");   /*Сохранить*/
 const profileName = document.querySelector(".profile__name");
